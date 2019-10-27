@@ -19,7 +19,7 @@ Games which revolve around spatial reasoning as their core dyhnamic are those wh
 the player to think ahead of time, and determine possible results of an 
 in-game puzzle, by analysing what the possible moves are, and figuring out what needs to be done to complete the puzzle.
 
-Mirage demonstrates this requirement through its unique **player mirroring** mechanic. 
+Mirage demonstrates this through its unique **player mirroring** mechanic. 
 <a name="Mirage"></a>
 <p align="left"><img width=100% src="Resources/Images/img-5.png?raw=true"></p>
 
