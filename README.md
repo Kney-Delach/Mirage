@@ -7,6 +7,8 @@
 ![difficulty](https://img.shields.io/badge/Difficulty-6.5/10-brightgreen)
 ![core-dynamic](https://img.shields.io/badge/Core%20Dynamic-Spatial%20Reasoning-FF8C00)
 
+Play it [here](https://bit.ly/2pUfv3i)!
+
 <a name="about"></a>
 ## About
 Mirage is a 2D spatial reasoning platformer I designed and developed with the aims of demonstrating a single core dynamic through fluid tutorialisation.
