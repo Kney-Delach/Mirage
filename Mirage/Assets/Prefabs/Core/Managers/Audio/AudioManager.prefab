@@ -1,0 +1,120 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1624774245360515663
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1624774245360515662}
+  - component: {fileID: 1624774245360515664}
+  - component: {fileID: 1624774245360515665}
+  m_Layer: 0
+  m_Name: AudioManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1624774245360515662
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1624774245360515663}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1624774245360515664
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1624774245360515663}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9fb50f7f7138de44ab288a155fcf4f61, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _masterVolumeMixer: {fileID: 24100000, guid: 0399f8a6181ee8b42a17668fa1ee352c, type: 2}
+  _gameSounds:
+  - _audioType: 2
+    _soundName: Ambiance-Main
+    _audioClip: {fileID: 8300000, guid: 0db525e9af1beae4eb6f7291b941a7a1, type: 3}
+    _audioSource: {fileID: 0}
+    _volume: 0
+  - _audioType: 1
+    _soundName: PlayerJump
+    _audioClip: {fileID: 8300000, guid: c76ca7f98eaf95b48b4b344469731023, type: 3}
+    _audioSource: {fileID: 0}
+    _volume: 0.7
+  - _audioType: 1
+    _soundName: CrateSound
+    _audioClip: {fileID: 8300000, guid: b73c4f2e2f37b604fac5f6aaaa51c691, type: 3}
+    _audioSource: {fileID: 0}
+    _volume: 0.1
+  - _audioType: 1
+    _soundName: Checkpoint
+    _audioClip: {fileID: 8300000, guid: 67b2e81611d361e49856acfbb65b3051, type: 3}
+    _audioSource: {fileID: 0}
+    _volume: 0.5
+  - _audioType: 1
+    _soundName: Barrier
+    _audioClip: {fileID: 8300000, guid: 29dd4e238ab4b1b408fd0704fb8b4531, type: 3}
+    _audioSource: {fileID: 0}
+    _volume: 0
+  - _audioType: 1
+    _soundName: Teleport
+    _audioClip: {fileID: 8300000, guid: f017a262541581e46847bb0fa5afc0c2, type: 3}
+    _audioSource: {fileID: 0}
+    _volume: 0
+  - _audioType: 1
+    _soundName: TimerCollection
+    _audioClip: {fileID: 8300000, guid: 67ed04b9fee15ee4694796ca4d3f39bd, type: 3}
+    _audioSource: {fileID: 0}
+    _volume: 0.5
+  - _audioType: 1
+    _soundName: TimerStart
+    _audioClip: {fileID: 8300000, guid: 93d1db2777d63b64eb5ed5e335fdc0a0, type: 3}
+    _audioSource: {fileID: 0}
+    _volume: 0.8
+  - _audioType: 1
+    _soundName: BarrierTrigger
+    _audioClip: {fileID: 8300000, guid: bb4109d77372fd0479313db3068c362e, type: 3}
+    _audioSource: {fileID: 0}
+    _volume: 0.7
+  - _audioType: 1
+    _soundName: BarrierActivated
+    _audioClip: {fileID: 8300000, guid: d00492c6f0f289c408a6da97810a7af6, type: 3}
+    _audioSource: {fileID: 0}
+    _volume: 0.5
+  - _audioType: 1
+    _soundName: BottomPlayerJump
+    _audioClip: {fileID: 8300000, guid: c76ca7f98eaf95b48b4b344469731023, type: 3}
+    _audioSource: {fileID: 0}
+    _volume: 0.7
+  - _audioType: 1
+    _soundName: PlayerDeath
+    _audioClip: {fileID: 8300000, guid: 3aa4f48671f554e4bb59cdb5f75b917e, type: 3}
+    _audioSource: {fileID: 0}
+    _volume: 0.4
+--- !u!114 &1624774245360515665
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1624774245360515663}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8ba347da9c2c34118adb9dae535a18be, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
